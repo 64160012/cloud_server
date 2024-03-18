@@ -13,9 +13,9 @@ app.use(session({ secret: "secret" }))
 
 //config database
 const connection = mysql.createConnection({
-  host: 'localhost',
+  host: 'database-1.cb8cgokmuenx.us-east-1.rds.amazonaws.com',
   user: 'root',
-  password: '',
+  password: 'gvd4r999',
   database: 'sale_test',
 });
 
